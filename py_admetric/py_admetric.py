@@ -120,7 +120,6 @@ def vtr(video_views: int, impressions: int) -> float:
     return safe_div(video_views, impressions)
 
 
-# Conversion Rate
 def cvr(conversions: int, clicks: int) -> float:
     """Calculate CVR(Conversion Rate)
 
