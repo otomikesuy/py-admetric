@@ -12,3 +12,15 @@ Provide calculation methods often used in digital advertising industry
 6. CTR (Click Through Rate)
 7. VTR (View Through Rate)
 8. CVR (Conversion Rate)
+
+## Installation
+```shell
+$ pip install py-admetric
+```
+
+## Usage and Example
+### Example: CPM
+```python
+from py_admetric import py_admetric
+cpm = py_admetric.cpm(50000, 1000)
+```
